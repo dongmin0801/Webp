@@ -4,20 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>소프트웨어 기술 선호에 관한 설문</title>
-    <style>
-        form{
-            margin-bottom: 20px;
-        }
-
-        label{
-            display: block;
-        }
-
-        textarea{
-            width: 300px;
-            height: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="survey4.css">
 </head>
 <body>
     <header>
@@ -27,7 +14,7 @@
     <hr>
     <section>
         <form>
-            학년
+            <label>학년</label>
             <input type="radio" name="grade" value="1" checked>1학년
             <input type="radio" name="grade" value="2">2학년
             <input type="radio" name="grade" value="3">3학년
@@ -35,13 +22,15 @@
         </form>
 
         <form>
-            성별
+            <label>성별</label>
+            
             <input type="radio" name="gender" value="1">남
             <input type="radio" name="gender" value="2">여
         </form>
 
         <form>
-            관심 분야
+            <label>관심 분야</label>
+            
             <select name="interested">
                 <option value="1">모바일 소프트웨어</option>
                 <option value="2">백엔드</option>
@@ -50,7 +39,8 @@
         </form>
 
         <form>
-            진로
+            <label>진로(다중 선택)</label>
+            
             <input type="checkbox" value="1" checked>개발
             <input type="checkbox" value="2">기획
             <input type="checkbox" value="3">영업
