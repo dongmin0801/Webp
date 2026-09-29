@@ -24,14 +24,13 @@ form>label{
 input[type="radio"],
 input[type="checkbox"] {
     accent-color: initial;
-}/*form 안에 선택 버튼은 색을 없애고 싶은데*/
+}
 
 textarea{
     display:  inline-block;
     width: 400px;
     height: 150px;
 }
-/*글 박스 어케 키움*/
 
 footer{
     margin-top: 20px;
